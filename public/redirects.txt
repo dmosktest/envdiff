@@ -1,0 +1,5 @@
+# Old → New (migration). Applied in nginx.conf. No chains/cycles.
+# /                         → 302 /{lang}/   (Accept-Language → GeoIP/DB-IP → en)
+# /?lang=<code>             → 301 /<code>/   (ru|en|zh|es|hi|ar|bn|pt|fr|de|ja|id|pa|jv|te|tr|ko|mr|vi|ta|it|fa|tlh)
+# /index.html               → 301 /{lang}/
+# /<code>                   → 301 /<code>/

@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "envdiff",
+  "short_name": "envdiff",
+  "description": "Compare .env, JSON, TOML, and ini by keys in the browser: left only, right only, changed values.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/en/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#17110c",
+  "theme_color": "#17110c",
+  "categories": ["utilities", "developer"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
